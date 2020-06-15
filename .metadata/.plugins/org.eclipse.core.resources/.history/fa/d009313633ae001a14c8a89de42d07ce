@@ -1,0 +1,13 @@
+2020-06-14 15:52:37,123 - Log -INFO -  Entered userName into UserName field successfully 
+2020-06-14 15:56:29,091 - Log -INFO -  Entered userName into UserName field successfully 
+2020-06-14 16:59:43,320 - Log -INFO -  Sccessfully entered UserName 
+2020-06-14 16:59:43,399 - Log -INFO -  Sccessfully entered Password 
+2020-06-14 16:59:47,425 - Log -INFO -  Successfully clicked on LogIn button
+2020-06-14 16:59:47,450 - Log -INFO -  The expected UserName is : Admin
+2020-06-14 16:59:47,504 - Log -INFO -  The actual UserName is : Welcome Admin
+2020-06-14 16:59:47,775 - Log -INFO -  Navigated to PIM 
+2020-06-14 16:59:49,562 - Log -INFO -  Successfully performed Operation on AddEmployee 
+2020-06-14 16:59:49,664 - Log -INFO -  Successfully entered FirstName
+2020-06-14 16:59:49,748 - Log -INFO -  Successfully entered MiddleName
+2020-06-14 16:59:49,848 - Log -INFO -  Successfully entered LastName
+2020-06-14 17:00:10,242 - Log -INFO -  The Employee id is : 0011

@@ -1,0 +1,59 @@
+package com.OHRM;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.testng.annotations.Test;
+
+import com.BaseTest.BaseTest;
+
+public class OHRM_AddEmployee extends BaseTest {
+
+	@Test(priority=1)
+	public void logIn()
+	{
+		WebElement userName=driver.findElement(By.id("txtUsername"));
+		userName.sendKeys("admin");
+		
+		WebElement password=driver.findElement(By.id("txtPassword"));
+		password.sendKeys("password");
+		
+		WebElement logInButton=driver.findElement(By.id("btnLogin"));
+	    logInButton.click();
+	    
+	    String expected_UserName ="Admin";
+		System.out.println(" The expected UserName is : "+expected_UserName);
+		
+		String actual_UserName=driver.findElement(By.id("welcome")).getText();
+		System.out.println(" The actual UserName is : "+actual_UserName);
+		
+		if(actual_UserName.contains(expected_UserName))
+		{
+			System.out.println(" Successfully reached HomePage - PASS");
+		}
+		else
+		{
+			System.out.println(" LogIn Failed - FAIL ");
+		}
+	}
+		@Test(priority=2)
+		public void pim()
+		{
+			WebElement pim=driver.findElement(By.id("menu_pim_viewPimModule"));
+			
+			Actions action = new Actions(driver);
+			action.moveToElement(pim).perform();
+			
+		}
+	
+		@Test(priority=3)
+		public void addEmployee()
+		{
+			
+			WebElement addEmployee=driver.findElement(By.id("menu_pim_addEmployee"));
+			
+		}
+	}
+	
+	
+

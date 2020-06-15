@@ -1,0 +1,38 @@
+package com.GRID;
+
+import org.openqa.selenium.Platform;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
+public class NewTours_UserRegistrationTest {
+	
+	@Parameters("Browser")
+	
+	@Test
+	public void userRegistration(String browser)
+	{
+		System.out.println("The Name of the Browser is : "+browser);
+		
+		//information related to the Nodes created
+		
+		// DesiredCapabilities - is used to set the info related to the browser and the platform on which the test should run
+		
+		DesiredCapabilities cap = null;
+		
+		if(browser.equalsIgnoreCase("firefox"))
+		{
+			cap = DesiredCapabilities.firefox();
+			cap.setBrowserName("firefox");
+			cap.setPlatform(Platform.WINDOWS);
+		}
+		else
+			if(browser.equalsIgnoreCase("chrome"))
+			{
+				cap = DesiredCapabilities.chrome();
+				cap.setBrowserName("chrome");
+				cap.setPlatform(Platform.WINDOWS);
+			}
+	}
+
+}

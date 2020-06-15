@@ -1,0 +1,17 @@
+2020-06-14 17:09:10,357 - Log -INFO -  Successfully Launched Firefox Browser
+2020-06-14 17:09:14,523 - Log -INFO -  Successfully Navigated to OHRM LogIn Page 
+2020-06-14 17:09:14,903 - Log -INFO -  Sccessfully entered UserName 
+2020-06-14 17:09:15,072 - Log -INFO -  Sccessfully entered Password 
+2020-06-14 17:09:19,204 - Log -INFO -  Successfully clicked on LogIn button
+2020-06-14 17:09:19,227 - Log -INFO -  The expected UserName is : Admin
+2020-06-14 17:09:19,302 - Log -INFO -  The actual UserName is : Welcome Admin
+2020-06-14 17:09:19,570 - Log -INFO -  Navigated to PIM 
+2020-06-14 17:09:21,404 - Log -INFO -  Successfully performed Operation on AddEmployee 
+2020-06-14 17:09:21,519 - Log -INFO -  Successfully entered FirstName
+2020-06-14 17:09:21,620 - Log -INFO -  Successfully entered MiddleName
+2020-06-14 17:09:21,704 - Log -INFO -  Successfully entered LastName
+2020-06-14 17:09:32,111 - Log -INFO -  Successfully Uploaded the Photograph 
+2020-06-14 17:09:42,218 - Log -INFO -  The Employee id is : 0012
+2020-06-14 17:09:46,546 - Log -INFO -  Clicked on Save Button 
+2020-06-14 17:09:48,403 - Log -INFO -  Successfully LoggedOut 
+2020-06-14 17:09:51,820 - Log -INFO -  Successfully Closed the Application 

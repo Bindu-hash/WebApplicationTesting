@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="NewTours Application" parallel="tests">
+   <test name="LogInTest">
+      <classes>
+         <class name="com.NewToursApplication.LogInTest"/>
+      </classes>
+    </test>
+   
+   <test name="newUserRegistration">
+      <classes>
+         <class name="com.NewToursApplication.NewUserRegistration"/>
+      </classes>
+    </test>
+</suite>

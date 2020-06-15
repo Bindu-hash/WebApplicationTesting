@@ -1,0 +1,26 @@
+package com.OHRM;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.testng.annotations.Test;
+
+import com.BaseTest.BaseTest;
+
+public class OHRM_AddEmployee extends BaseTest {
+
+	@Test
+	public void logIn()
+	{
+		WebElement userName=driver.findElement(By.id("txtUsername"));
+		userName.sendKeys("admin");
+		
+		WebElement password=driver.findElement(By.id("txtPassword"));
+		password.sendKeys("password");
+		
+		WebElement logInButton=driver.findElement(By.id("btnLogin"));
+	    logInButton.click();
+	
+	}
+	
+	
+}

@@ -1,0 +1,13 @@
+[main] INFO Log -  Entered userName into UserName field successfully 
+[main] INFO Log -  Entered userName into UserName field successfully 
+[main] INFO Log -  Sccessfully entered UserName 
+[main] INFO Log -  Sccessfully entered Password 
+[main] INFO Log -  Successfully clicked on LogIn button
+[main] INFO Log -  The expected UserName is : Admin
+[main] INFO Log -  The actual UserName is : Welcome Admin
+[main] INFO Log -  Navigated to PIM 
+[main] INFO Log -  Successfully performed Operation on AddEmployee 
+[main] INFO Log -  Successfully entered FirstName
+[main] INFO Log -  Successfully entered MiddleName
+[main] INFO Log -  Successfully entered LastName
+[main] INFO Log -  The Employee id is : 0011

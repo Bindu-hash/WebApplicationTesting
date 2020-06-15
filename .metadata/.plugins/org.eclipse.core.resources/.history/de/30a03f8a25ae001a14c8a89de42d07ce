@@ -1,0 +1,10 @@
+package com.Utility;
+
+import org.apache.log4j.Logger;
+
+public class Log {
+	
+	Logger logg = Logger.getLogger("Log");
+	
+
+}

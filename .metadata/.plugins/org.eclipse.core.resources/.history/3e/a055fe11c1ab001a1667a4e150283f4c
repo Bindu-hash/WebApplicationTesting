@@ -1,0 +1,10 @@
+package com.OHRM;
+
+public class OHRM_AddEmployee {
+
+	WebDriver driver=null;
+	String applicationURL ="http://127.0.01/orangehrm-4.0/symfony/web/index.php/auth/login";
+    
+	
+
+}

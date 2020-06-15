@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/Bindu Reddy/Desktop/SeleniumTesting/WebApplicationTesting/Library/selenium-server-standalone-3.141.59.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bindu Reddy/Desktop/Selenium Sessions/commons-io-2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bindu Reddy/Desktop/SeleniumTesting/WebApplicationTesting/Library/activation-1.1.1"/>
+	<classpathentry kind="lib" path="C:/Users/Bindu Reddy/Desktop/SeleniumTesting/WebApplicationTesting/Library/commons-codec-1.13"/>
+	<classpathentry kind="lib" path="C:/Users/Bindu Reddy/Desktop/SeleniumTesting/WebApplicationTesting/Library/commons-collections4-4.4"/>
+	<classpathentry kind="lib" path="C:/Users/Bindu Reddy/Desktop/SeleniumTesting/WebApplicationTesting/Library/commons-compress-1.19"/>
+	<classpathentry kind="lib" path="C:/Users/Bindu Reddy/Desktop/SeleniumTesting/WebApplicationTesting/Library/commons-logging-1.2"/>
+	<classpathentry kind="lib" path="C:/Users/Bindu Reddy/Desktop/SeleniumTesting/WebApplicationTesting/Library/commons-math3-3.6.1"/>
+	<classpathentry kind="lib" path="C:/Users/Bindu Reddy/Desktop/SeleniumTesting/WebApplicationTesting/Library/curvesapi-1.06"/>
+	<classpathentry kind="lib" path="C:/Users/Bindu Reddy/Desktop/SeleniumTesting/WebApplicationTesting/Library/jaxb-api-2.3.1"/>
+	<classpathentry kind="lib" path="C:/Users/Bindu Reddy/Desktop/SeleniumTesting/WebApplicationTesting/Library/jaxb-core-2.3.0.1"/>
+	<classpathentry kind="lib" path="C:/Users/Bindu Reddy/Desktop/SeleniumTesting/WebApplicationTesting/Library/jaxb-impl-2.3.2"/>
+	<classpathentry kind="lib" path="C:/Users/Bindu Reddy/Desktop/SeleniumTesting/WebApplicationTesting/Library/junit-4.12"/>
+	<classpathentry kind="lib" path="C:/Users/Bindu Reddy/Desktop/SeleniumTesting/WebApplicationTesting/Library/poi-4.1.2"/>
+	<classpathentry kind="lib" path="C:/Users/Bindu Reddy/Desktop/SeleniumTesting/WebApplicationTesting/Library/poi-examples-4.1.2"/>
+	<classpathentry kind="lib" path="C:/Users/Bindu Reddy/Desktop/SeleniumTesting/WebApplicationTesting/Library/poi-excelant-4.1.2"/>
+	<classpathentry kind="lib" path="C:/Users/Bindu Reddy/Desktop/SeleniumTesting/WebApplicationTesting/Library/poi-ooxml-4.1.2"/>
+	<classpathentry kind="lib" path="C:/Users/Bindu Reddy/Desktop/SeleniumTesting/WebApplicationTesting/Library/poi-ooxml-schemas-4.1.2"/>
+	<classpathentry kind="lib" path="C:/Users/Bindu Reddy/Desktop/SeleniumTesting/WebApplicationTesting/Library/poi-scratchpad-4.1.2"/>
+	<classpathentry kind="lib" path="C:/Users/Bindu Reddy/Desktop/SeleniumTesting/WebApplicationTesting/Library/SparseBitSet-1.2"/>
+	<classpathentry kind="lib" path="C:/Users/Bindu Reddy/Desktop/SeleniumTesting/WebApplicationTesting/Library/xmlbeans-3.1.0"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

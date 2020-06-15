@@ -1,0 +1,15 @@
+package com.OHRM;
+
+import com.BaseTest.BaseTest;
+
+public class OHRM_AddEmployee extends BaseTest {
+
+	@Test
+	public void logIn()
+	{
+		
+		
+	}
+	
+	
+}

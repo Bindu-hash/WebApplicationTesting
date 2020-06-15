@@ -1,0 +1,9 @@
+package com.BaseTest;
+
+public class BaseTest {
+	
+	public WebDriver driver;
+	public String applicationURL = "http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/auth/login"; 
+
+	
+}
